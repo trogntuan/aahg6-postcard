@@ -52,14 +52,17 @@ function generatorPostcard(e) {
         });
 
         $('#postcardModal').modal('hide')
-        if (GVs.isIOS()) {
-            $('#ios-image-modal .modal-body img').attr('src', canvas.toDataURL())
-            $('#ios-image-modal').modal('show')
-        } else {
+        $('#resultModal #img-result').attr('src', canvas.toDataURL())
+        $('#resultModal').modal('show')
+        
+        // if (GVs.isIOS()) {
+        //     $('#ios-image-modal .modal-body img').attr('src', canvas.toDataURL())
+        //     $('#ios-image-modal').modal('show')
+        // } else {
 
-            $('#resultModal #img-result').attr('src', canvas.toDataURL())
-            $('#resultModal').modal('show')
-        }
+        //     $('#resultModal #img-result').attr('src', canvas.toDataURL())
+        //     $('#resultModal').modal('show')
+        // }
     };
 
     font.load().then(function(loadedFont) {
