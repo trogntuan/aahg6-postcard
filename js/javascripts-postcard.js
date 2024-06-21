@@ -1,7 +1,7 @@
 function generatorPostcard(e) {
     $(e).prop("disabled", false);
     const userName = $('#postcardModal #username').val()
-    if (!userName || userName.length > 13) {
+    if (!userName || userName.length > 15) {
         $('#postcardModal .modal-body .sum-character .alert-name').removeClass('invisible')
         return
     }
@@ -16,7 +16,7 @@ function generatorPostcard(e) {
     img.crossOrigin = "anonymous";
 
     const gender = $('#postcardModal .gender-input:checked').val()
-    let prefix = 'Chúng cảm ơn anh/chị ';
+    let prefix = 'Chúng em cảm ơn anh/chị ';
     let suffixe = '';
 
     if (gender == 0) prefix = prefix.replace("anh/chị", "chị");
@@ -115,16 +115,16 @@ function removeDisable() {
     $("#postcardModal .btn-create-postcard").prop('disabled', false)
 }
 
-class GVs {
-    static isIOS() {
-        return [
-            'iPad Simulator',
-            'iPhone Simulator',
-            'iPod Simulator',
-            'iPad',
-            'iPhone',
-            'iPod'
-        ].includes(navigator.platform)
-            || (navigator.userAgent.includes("Mac") && "ontouchend" in document);
-    }
-}
+// class GVs {
+//     static isIOS() {
+//         return [
+//             'iPad Simulator',
+//             'iPhone Simulator',
+//             'iPod Simulator',
+//             'iPad',
+//             'iPhone',
+//             'iPod'
+//         ].includes(navigator.platform)
+//             || (navigator.userAgent.includes("Mac") && "ontouchend" in document);
+//     }
+// }
