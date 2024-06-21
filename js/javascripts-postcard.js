@@ -111,3 +111,17 @@ window.addEventListener('load', () => {
 function removeDisable() {
     $("#postcardModal .btn-create-postcard").prop('disabled', false)
 }
+
+class GVs {
+    static isIOS() {
+        return [
+            'iPad Simulator',
+            'iPhone Simulator',
+            'iPod Simulator',
+            'iPad',
+            'iPhone',
+            'iPod'
+        ].includes(navigator.platform)
+            || (navigator.userAgent.includes("Mac") && "ontouchend" in document);
+    }
+}

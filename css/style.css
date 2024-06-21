@@ -891,3 +891,213 @@ h6,
     color: white;
     margin-top: -45px;
 }
+
+#ios-image-modal .modal-header{
+    border: none;
+    padding: 0;
+}
+#ios-image-modal{
+    background: rgba(0, 0, 0, 0.50);
+}
+#ios-image-modal .modal-content{
+    background-color: transparent;
+}
+#ios-image-modal .modal-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#ios-image-modal .modal-header .btn {
+    margin-left: auto;
+    color: white;
+    font-size: 28px;
+}
+#ios-image-modal .modal-footer{
+    border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'Montserrat-Medium';
+    color: white;
+    flex-direction: column;
+}
+
+/* #positionModal .modal-content {
+    border-radius: 20px;
+}
+
+#positionModal .modal-header {
+    padding: 0;
+}
+
+#positionModal .modal-header img.img_bg {
+    border-top-left-radius: 20px;
+}
+
+#positionModal .modal-header .address {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#positionModal .modal-header .address .province_name {
+    font-size: 24px;
+    font-family: 'Montserrat-Bold';
+    color: #fff;
+}
+
+#positionModal .modal-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 32px 20px;
+}
+
+#positionModal .modal-body .item {
+    color: #343434;
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+    text-align: center;
+}
+
+#positionModal .modal-body .item .group_count {
+    margin-top: 17px;
+    position: relative;
+}
+
+#positionModal .modal-body .item .group_count .text_count {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #007469;
+    font-size: 24px;
+    font-family: 'Montserrat-Bold';
+    transform: translate(-50%, -50%);
+}
+
+#positionModal .modal-body .item .title {
+    color: #007469;
+    font-size: 24px;
+    font-family: 'Montserrat-Bold';
+}
+
+#postcardModal .modal-header {
+    padding: 0;
+    position: relative;
+  }
+  
+  #postcardModal .modal-header button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    background-color: unset;
+  }
+  
+  #postcardModal .modal-body {
+    padding: 28px 28px 60px 28px;
+  }
+  
+  #postcardModal .modal-body .title {
+    font-family: "Montserrat-Medium";
+    font-size: 16px;
+    color: #1f1f1f;
+  }
+  
+  #postcardModal .modal-body .sum-character {
+    font-family: "Montserrat-Medium";
+    font-size: 16px;
+    color: #8d8d8d;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+  #postcardModal .modal-body .sum-character .alert-name {
+    color: #ff6969;
+    font-family: 'Montserrat-Regular';
+    font-size: 13px;
+  }
+  #postcardModal .modal-body .btn-create-postcard {
+    padding: 16px 25px;
+    border-radius: 30px;
+    background: #009f9a;
+    box-shadow: 0px 8px 0px 0px #12645f;
+    color: white;
+    font-family: "Montserrat-SemiBold";
+  }
+  #postcardModal .modal-body .gender-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  #postcardModal .modal-body .gender-group label {
+    display: flex;
+    padding: 18px;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 2px solid #d9d9d9;
+    background: #fff;
+    font-family: "Montserrat-Medium";
+    font-size: 16px;
+    color: #1f1f1f;
+  }
+  #postcardModal .modal-body .gender-group label input {
+    width: 18px;
+    height: 18px;
+  }
+
+  #resultModal .modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+    padding: 8px 13px 0 13px;
+}
+
+#resultModal .modal-body {
+    display: flex;
+    font-size: 28px;
+    padding: 5px 15px 0 15px;
+    font-family: "SVN-Bali";
+    color: #007469;
+    flex-direction: column;
+}
+
+#resultModal .modal-body #postcardCanvas {
+    border-radius: 8px;
+    border: 4px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.16);
+}
+
+#resultModal .modal-footer {
+    border-top: none;
+    padding: 0 0 20px 0;
+    margin: -90px 0px 0px 0px;
+    justify-content: center;
+}
+
+#resultModal .modal-footer * {
+    margin: 0;
+}
+
+#resultModal .modal-footer button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 32px;
+    border-radius: 30px;
+    background: #009f9a;
+    font-family: "Montserrat-SemiBold";
+    font-size: 18px;
+    color: white;
+    margin-top: -45px;
+} */
